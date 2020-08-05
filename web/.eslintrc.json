@@ -23,6 +23,8 @@
     ],
     "rules": {
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+      "react/prop-types": "off",
+      "jsx-a11y/label-has-associated-control": "off",
       "import/extensions": [
       "error",
       "ignorePackages",
