@@ -17,7 +17,10 @@
   "rules": {
     "import/extensions": "off",
     "camelcase": "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "class-methods-use-this": "off",
+    "func-names": "off",
+    "no-console": "off"
   },
   "settings": {
     "import/resolver": {
